@@ -1,0 +1,34 @@
+* {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.home-page-bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+}
+
+.events-bg-container {
+  background-color: #323f4b;
+  padding: 10px;
+  height: 100%;
+  width: 60%;
+}
+
+.events-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.events-main-heading {
+  margin-left: 50px;
+}
+
+.events-status-bg-container {
+  height: 100%;
+  width: 40%;
+}
